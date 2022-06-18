@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budgeting App</title>
+    <link rel="stylesheet" href="ba.css">
+    <script src="https://kit.fontawesome.com/aef0633a6d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Budgeting App</h1>
+    <br>
+    <div id='errorHandler'>
+        <p>Your budget/expense value was invalid! Try again.</p>
+    </div>
+    <br>
+    <div id='bronksGoSTOOOONKSSSS'>
+        <div>
+            <h2 class="budgetShow">Budget</h2>
+            <h1 id="changeBudget">$0</h1>
+        </div>
+        <div>
+            <h2 class="budgetShow">Expenses</h2>
+            <h1 id="changeExpenses">$0</h1>
+        </div>
+        <div>
+            <h2 class="budgetShow">Balance</h2>
+            <h1 id="changeEB">$0</h1>
+        </div>
+    </div>
+    <br>
+    <div id="expenseInfoContainer">
+        <div id='dabois'></div>
+        <h3 id='boisei'>Expense Value</h3>
+        <h3 id='boisei'>Expense Name</h3>
+    </div>
+    <br>
+    <form id="budgetForm">
+        <label for="budgetLabel" class="blahs2">Please enter your budget</label>
+        <br>
+        <input type="number" name="budgetLabel" id="budget" class="blahs2">
+        <br>
+        <input type="button" value="Add to Budget" class="blahs2" id='budgetSUBMIT'>
+    </form>
+    <br>
+    <form id="expensesForm">
+        <label for="expensesLabel" class="blahs">Please enter the expense</label>
+        <br>
+        <input type="text" name="expensesLabel" id="expenseName" class="blahs" maxlength="25">
+        <br>
+        <label for="eaLabel" class="blahs">Please enter the expense amount</label>
+        <br>
+        <input type="number" name="eaLabel" id="expenseValue" class="blahs">
+        <br>
+        <input type="button" value="Add Expense" class="blahs" id="expensesSUBMIT">
+    </form>
+    <script src="ba.js"></script>
+</body>
+</html>
